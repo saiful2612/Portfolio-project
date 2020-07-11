@@ -1,9 +1,9 @@
 body{
+    margin: 0px;
     font-family: 'Poppins', sans-serif;
 }
 h3{
     font-size: 20px;
-    font: normal;
     letter-spacing: 2px;
     margin-bottom: 20px;
 }
@@ -17,26 +17,27 @@ h3{
 p{
     font-size: 14px;
 }
-.portion{
+.portion-one{
     width: 30%;
     float:left;
 }
-.portion img{
+.portion-one img{
     width: 125%;
 }
 .first-part{
     background-image: url("photos/header-bg.png");
+    background-position: 100%;
     background-size: 100%;
 }
 section{
     height: 680px;
     padding-top: 10px;
 }
-.one{
+.box-one{
     padding-top: 17%;
     padding-left: 15%;
 }
-.two{
+.box-two{
     padding-top: 8%;
     padding-bottom: 7%;
     margin-left: 4%;
@@ -47,6 +48,101 @@ section{
     text-decoration: none;
     background-color: #ec4c7a;
     color: whitesmoke;
+    margin-top: 5px;
+    margin-bottom: 5px;
     padding: 10px 30px;
     border-radius: 5px;
 }
+.portion-two{
+    width: 30%;
+    float: left;
+}
+.portion-two img{
+    width: 125%;
+}
+.three{
+    width: 30%;
+    margin-left: 2%;
+    padding-top: 2%;
+    padding-left: 7%;
+}
+
+.four{
+    height: 50%;
+    width: 40%;
+    margin-top: 10%;
+    margin-left: 12%;
+    margin-bottom: 2px;
+    padding-bottom:5%;
+}
+.para{
+    margin-bottom: 3px;
+    padding-bottom: 30px;
+}
+.second-part{
+    background-image: url("photos/biography-bg.png");
+    background-position: 100%;
+    background-size: 100%;
+}
+.work-part{
+    margin: 1%;
+    width: 29%;
+    float: left;
+}
+.head-portion{
+    font-size: 120%;
+    text-align: center;
+}
+.chair img{
+    width: 27%;
+    float: left;
+    margin: 15px;
+}
+.third-part{
+    background-image: url("photos/latest-work-bg.png");
+    background-position: 100%;
+    background-size: 100%;
+    height: 550px;
+}
+.table{
+    padding-top: 4px;
+    padding-left: 8%;
+    
+}
+.fourth-one{
+    font-size: 200%;
+    text-align: center;
+}
+.fourth-two{
+    text-align: center;
+}
+.last-portion{
+    width: 45%;
+    height: 15%;
+    margin-left: 25;
+    background-color:#ec4c7a;
+    border-radius: 5px;
+    color: whitesmoke;
+    margin-top: 7%;
+    margin-left: 28%;
+    padding-top: 3%;
+}
+.e-mail{
+    font-size:20px;
+}
+.fourth-part{
+    background-image: url("photos/footer-bg.png");
+    background-position: 100%;
+    background-size: 100%;
+}
+.upper-portion{
+    margin-top: 5%;
+}
+.middle-portion{
+    margin-top: 5%;
+}
+footer p{
+    text-align: center;
+    font-size: 10px;
+}
+
